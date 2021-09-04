@@ -61,7 +61,7 @@ export const FetchBtn = styled.button`
   margin-top: 2rem;
   margin-left: 50%;
   transform: translateX(-50%);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   transition: .3s ease-out;
   &:hover {
     background: #ececec;
@@ -75,10 +75,13 @@ export const BoardImg = styled.img`
   width: 100%;
   margin: auto;
   padding: ${({ readMore }) => (readMore ? "0 2rem" : "0")};
-  height: ${({ readMore }) => (readMore ? "100%" : "20rem")};
+  height: ${({ readMore }) => (readMore ? "50%" : "20rem")};
   object-fit: contain;
   border-top-right-radius: .4rem;
   border-top-left-radius: .4rem; 
+  @media screen and (min-width: 715px){
+    height: ${({ readMore }) => (readMore ? "100%" : "20rem")};
+  }
 `;
 
 export const BoardFooter = styled.footer`

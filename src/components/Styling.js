@@ -95,7 +95,7 @@ export const BoardInfo = styled.div`
 `;
 
 export const BoardH4 = styled.h4`  
-  font-size: clamp(1.2rem, 5vw, 2.6rem);
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
 `;
 
 export const BoardPrice = styled.h4`
@@ -112,7 +112,7 @@ export const BoardPrice = styled.h4`
 export const BoardP = styled.div`
     font-family: 'EsperaR';
     color: #555;
-    font-size: clamp(1.2rem, 2vw, 1.4rem);
+    font-size: 1.4rem;
     line-height: 1.2; 
     margin: 1.2rem 0 1rem;
 `;
@@ -133,7 +133,7 @@ export const ReadBoard = styled.button`
     border: none;
     cursor: pointer;
     margin-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     transition: ease-out .25s;
     &:hover{
       background: #fff;
@@ -148,6 +148,7 @@ export const DeleBtn = styled.button`
   width: 20rem;
   margin: 2rem auto 0 auto;
   color: #700B27;
+  font-size: 1.4rem;
   letter-spacing: .1rem;
   background: transparent;
   border: 1px solid #700B27;
